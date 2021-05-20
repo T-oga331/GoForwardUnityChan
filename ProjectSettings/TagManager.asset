@@ -6,6 +6,7 @@ TagManager:
   tags:
   - UnityChanTag
   - CubeTag
+  - GroundTag
   layers:
   - Default
   - TransparentFX

@@ -36,7 +36,7 @@ public class CubeController : MonoBehaviour
         Debug.Log("衝突時:" + other.gameObject.tag);
 
         // 地面とキューブに当たったら音を鳴らす
-        if (other.gameObject.tag == "Untagged" || other.gameObject.tag == "CubeTag")
+        if (other.gameObject.tag == "GroundTag" || other.gameObject.tag == "CubeTag")
         {
             // 効果音
             GetComponent<AudioSource>().Play();
